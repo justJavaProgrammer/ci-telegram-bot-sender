@@ -5,7 +5,7 @@ description: Send message about build process
 inputs:
   repository-name:
     description: Repository name
-    required: true
+    required: false
 
 runs:
   using: node16
