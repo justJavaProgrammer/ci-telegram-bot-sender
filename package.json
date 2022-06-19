@@ -1,0 +1,18 @@
+{
+  "name": "ci-telegram-bot-sender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.9.0",
+    "@actions/github": "^5.0.3",
+    "init": "^0.1.2",
+    "node-telegram-bot-api": "^0.57.0"
+  }
+}

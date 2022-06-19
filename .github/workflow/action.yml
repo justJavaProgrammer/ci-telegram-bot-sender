@@ -1,0 +1,12 @@
+name: Sender
+
+description: Send message about build process
+
+inputs:
+  repository:
+    description: Repository name
+    required: true
+
+runs:
+  using: node16
+  main: index.js
