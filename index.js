@@ -6,5 +6,8 @@ const token = '5449681342:AAGXAxO90zoyiG7i-PefcF67Mkrm49L8NMM';
 
 const bot = new TelegramBot(token, {polling: true});
 const repoName = core.getInput('repository-name');
-bot.sendMessage('1218397122', `Repository: ${repoName}`).then(r => process.exit(0));
+bot.sendMessage('1218397122', `Repository: ${repoName}`).then(() => {
+    console.log("Done")
+    process.exit(0);
+});
 
